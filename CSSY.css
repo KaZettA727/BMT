@@ -186,3 +186,44 @@ footer{
     height: 1000px;
     transition:width 1s ease;
 }
+.verh{
+    width: 100%;
+    display: flex;
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.verhnaz{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.t{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+}
+.j{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+}
+.stroka{
+    display: flex;
+    margin-top: 20px;
+}
+.stoo{
+    margin: 5px;
+     position: relative;
+      top: -15px;
+}
+.tt{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+    margin-left: 70px;
+}
