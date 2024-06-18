@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 function viewDiv1(){
     var elements = document.getElementsByClassName("asd");
@@ -752,7 +752,7 @@ function viewDivprez(){
         elements[i].style.display = "none";
     }
     document.getElementById("divq3").style.display = "block";
-=======
+  }
 
 function viewDiv1(){
     var elements = document.getElementsByClassName("asd");
@@ -1506,5 +1506,5 @@ function viewDivprez(){
         elements[i].style.display = "none";
     }
     document.getElementById("divq3").style.display = "block";
->>>>>>> 09bbc57c7e14909799d41ccf2722fee06ffd69fe
+
   }
