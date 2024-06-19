@@ -1,0 +1,229 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: rgb(235, 222, 151);
+    width: 100%;
+    height: 100px;
+}
+footer{
+    background-color: rgb(235, 222, 151);
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    bottom: -0%;
+    
+}
+#menu{
+    background-color: antiquewhite;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 770px;
+    display: block;
+    transition: left 0.4s ease;
+    overflow-y: scroll;
+    z-index: 1;
+}
+#content{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 130px;
+    right: 40px;
+    width: 1420px;
+    height: 730px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    
+    overflow: auto;
+    transition: width 1s ease;
+}
+/* Кнопка выпадающего списка */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    width: 100%;
+  }
+  
+  /* Контейнер <div> - необходим для размещения выпадающего содержимого */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    border-bottom: 2px solid red ;
+    width: 100%;
+    
+  }
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 2;
+    
+    overflow-y: scroll;
+  }
+  
+  
+  
+  /* Изменение цвета выпадающих ссылок при наведении курсора */
+  .dropdown-content a:hover {background-color:none;}
+  
+  /* Показать выпадающее меню при наведении курсора */
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Изменение цвета фона кнопки раскрывающегося списка при отображении содержимого раскрывающегося списка */
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  .asd{
+    display: none;
+    position: absolute;
+  }
+  .raz{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 300px;
+    font-size: 16px;
+    white-space: normal;
+    word-break: normal;
+    
+  }
+  .knopa{
+    position: relative;
+    
+  }
+  .aaaa{
+    display: inline-flex;
+    position: relative;
+    left: 0px;
+    top: 30px;
+  }
+  #toggleButton{
+    width: 50px;
+    height: 100px;
+    transform: rotate(0deg);
+    position:relative;
+    top: 360px;
+    left: 0px;
+    font-size: 20px;
+    transition:left 0.4s ease;
+  }
+  #strelka{
+    scale: 1.3;
+    transform: rotate(0deg);
+    transition: transform 0.4s ease;
+  }
+  .tema{
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    right: 0px;
+    top: 20px;
+  }
+  #t1{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+  }
+  #t2{
+    background-color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border-color: white;
+  }
+  .razdel{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    padding: 16px;
+    border: none;
+    text-align: center;
+    max-width: 250px;
+    font-size: 22px;
+  }
+  video{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    left: 5%;
+    transition:left 1s ease;
+  }
+  .divv1{
+    display: none;
+    position: absolute;
+    justify-content: center;
+  align-items: center;
+  }
+  .raaz{
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid red ;
+    width: 100%;
+    white-space: normal;
+    word-break: normal;
+  }
+  .raaz:hover {
+    background-color: #3e8e41;
+  }
+  iframe{
+    width: 1400px;
+    height: 1000px;
+    transition:width 1s ease;
+}
+.verh{
+    width: 100%;
+    display: flex;
+    font-size: 28px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 30px;
+}
+.verhnaz{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.t{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+}
+.j{
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+}
+.stroka{
+    display: flex;
+    margin-top: 20px;
+}
+.stoo{
+    margin: 5px;
+     position: relative;
+      top: -15px;
+}
+.tt{
+    font-size: 20px;
+    line-height: 1.4;
+    font-family:'times new roman';
+    margin-top: 0px;
+    margin-left: 70px;
+}
